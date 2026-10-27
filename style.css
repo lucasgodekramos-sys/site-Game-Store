@@ -1,0 +1,66 @@
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% { opacity: 1;}
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.cabecalho{
+    
+}
+.imagem-switch{
+    height: 350px;
+    width: 350px;
+}   
+.anuncio-switch{
+    animation: fadeIn 2s ease-in forwards;
+    display: flex;
+}
+.titulos-produtos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+.imagem-ps5{
+    height: 350px;
+    width: 350px;
+}
+.anuncio-ps5{ 
+    animation: fadeIn 3s ease-in forwards;
+    display: flex;
+    justify-content: flex-end;
+}
+.imagem-xbox{
+    height: 400px;
+    width: 400px;
+}
+.anuncio-xbox{
+    animation: fadeIn 4s ease-in forwards;
+    display: flex;
+}
+.texto-sobre{
+    animation: fadeIn 3s ease-in forwards;
+    padding: 25vh;
+    padding-top: 3vh;
+}
+.titulo-sobre{
+    animation: fadeIn s ease-in forwards;
+    display: flex;
+    font-size: 30px;
+}
+.corpo-texto{
+    animation: fadeIn 2s ease-in forwards;
+    display: flex;
+    justify-content: center;
+    padding: 15vh;
+}
+.rodape{
+    bottom: 0;
+    background-color: #2A7C13;
+    width: 100vw;
+}
