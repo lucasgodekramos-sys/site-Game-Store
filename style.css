@@ -27,6 +27,7 @@ a{
     flex-direction: column;
 }
 .imagem-ps5{
+    animation: fadeIn 3s ease-in forwards;
     height: 350px;
     width: 350px;
 }
@@ -70,4 +71,7 @@ a{
     position: absolute;
     background-color: #2A7C13;
     width: 100vw;
+}
+.icone-cadastro{
+    align-self:center;
 }
