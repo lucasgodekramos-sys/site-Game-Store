@@ -75,3 +75,6 @@ a{
 .icone-cadastro{
     align-self:center;
 }
+table, th, td {
+  border:1px solid black;
+}
